@@ -8,8 +8,8 @@ const char* endpoint ="https://ecse-three-led-api.onrender.com/api/state" ;
 
 
 const int led1 = 15;
-const int led2 = 16;
-const int led3 = 17;
+const int led2 = 2;
+const int led3 = 4;
 
 void setup() {
   Serial.begin(9600);
