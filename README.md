@@ -40,16 +40,3 @@ Parse the JSON response to extract the LED states, and use the `digitalWrite()` 
 
 Verify that the ESP32 sketch can successfully communicate with the server and control the LED states.
 
-## Submission
-
-Due date is Sunday February 26, 2023.
-
-The repo name must be "ECSE3038_lab4".
-
-Your repository should **NOT** include the `.vscode` folder at all.
-
-Remember to ignore your `env.h` file.
-
-You're only required to provide a link to your GitHub repository. 
-
-Any commits made to the repo after the due date will not be considered.
