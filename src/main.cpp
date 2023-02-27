@@ -44,7 +44,7 @@ void loop() {
 
 
     if (httpResponseCode>0) {
-        Serial.print("Error");
+        Serial.print("Response:");
         Serial.print(httpResponseCode);
         http_response = http.getString();
         Serial.println(http_response);}
