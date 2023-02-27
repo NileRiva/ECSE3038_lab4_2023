@@ -49,7 +49,7 @@ void loop() {
         http_response = http.getString();
         Serial.println(http_response);}
       else {
-        Serial.print("Error code:");
+        Serial.print("Response: ");
         Serial.println(httpResponseCode);}
       http.end();
 
@@ -67,7 +67,7 @@ void loop() {
       bool light3 = doc["light_switch_3"];
   
       Serial.println("Light 1:");
-      Serial.print(light1);
+      Serial.println(light1);
       Serial.println("Light 2:");
       Serial.println(light2);
       Serial.println("Light 3:");
